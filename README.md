@@ -1,4 +1,5 @@
 # pistate
+![Build Stauts](https://github.com/shaeberling/pistate/actions/workflows/go.yml/badge.svg)
 
 A simple tool to print the state of your Raspberry Pi.
 
