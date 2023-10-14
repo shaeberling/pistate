@@ -1,5 +1,5 @@
 # pistate
-![Build Stauts](https://github.com/shaeberling/pistate/actions/workflows/go.yml/badge.svg)
+![Build Status](https://github.com/shaeberling/pistate/actions/workflows/go.yml/badge.svg)
 
 A simple tool to print the state of your Raspberry Pi.
 
@@ -12,10 +12,10 @@ $ ./pistate
 ┌─────────────────┬──────┬──────┐
 │ CATEGORY        │ CURR │ PAST │
 ├─────────────────┼──────┼──────┤
-│ Under-voltage   │ ✔️   │ ✔️   │
-│ Arm freq capped │ ⚠️   │ ⚠️   │
-│ Throttled       │ ✔️   │ ✔️   │
-│ Soft temp limit │ ⚠️   │ ✔️   │
+│ Under-voltage   │ ⚠️   │ ⚠️   │
+│ Arm freq capped │ ✔️   │ ✔️   │
+│ Throttled       │ ⚠️   │ ⚠️   │
+│ Soft temp limit │ ✔️   │ ⚠️   │
 └─────────────────┴──────┴──────┘
 Throttled status [throttled=0xd0005]
 

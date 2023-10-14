@@ -12,9 +12,8 @@ import (
 )
 
 const (
-	col_green string = "\033[92m"
-	col_red          = "\033[93m"
-	col_end          = "\033[0m"
+	col_orange string = "\033[93m"
+	col_end           = "\033[0m"
 )
 
 /*
@@ -40,22 +39,14 @@ func main() {
 }
 
 func wrap_warning(str string) string {
-	return fmt.Sprintf("%s%s%s", col_red, str, col_end)
-}
-
-func wrap_OK(str string) string {
-	return fmt.Sprintf("%s%s%s", col_green, str, col_end)
-}
-
-func wrap_underline(str string) string {
-	return fmt.Sprintf("%s%s%s", cold_under, str, col_end)
+	return fmt.Sprintf("%s%s%s", col_orange, str, col_end)
 }
 
 func icon(b bool) string {
 	if b {
-		return "✔️"
-	} else {
 		return "⚠️"
+	} else {
+		return "✔️"
 	}
 }
 
